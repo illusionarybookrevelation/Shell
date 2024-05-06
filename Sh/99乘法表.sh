@@ -3,10 +3,11 @@
 
 for ((i=1;i<10;i++))
 do
+	# shellcheck disable=SC2004
 	for ((j=1;j<=$i;j++))
 	do
 		# shellcheck disable=SC2007
-		echo -n "$j x $i=$[ $j * $i ]  "
+		echo -n "$j x $i=$[ $j * $i ]"
 	done
 	echo
 	echo "ÄãºÃ"
