@@ -9,4 +9,5 @@ do
 		echo -n "$j x $i=$[ $j * $i ]  "
 	done
 	echo
+	echo "ÄãºÃ"
 done
