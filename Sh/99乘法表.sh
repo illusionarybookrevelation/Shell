@@ -7,8 +7,8 @@ do
 	for ((j=1;j<=$i;j++))
 	do
 		# shellcheck disable=SC2007
-		echo -n "$j x $i=$[ $j * $i ]"
+		echo -n "$j x $i=$[ $j * $i ] "
 	done
 	echo
-	echo "ÄãºÃ"
 done
+echo "Hello"
